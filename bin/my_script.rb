@@ -6,7 +6,7 @@ def get_user
     scheme: 'http',
     host: 'localhost',
     port: 3000,
-    path: '/users/4/contacts'
+    path: '/users/3/comments'
   ).to_s
 
   puts RestClient.get(url)
